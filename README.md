@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import gger from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-gger@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-base-gger/tags). For example,
+
+```javascript
 import gger from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-gger@v0.1.1-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-gger@v0.1.1-esm/index.mjs';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-gger@esm/index.mjs';
 ```
 
 #### gger( order, M, N, α, x, sx, y, sy, A, lda )
@@ -170,7 +175,7 @@ gger.ndarray( 2, 3, 1.0, x, 2, 1, y, 2, 1, A, 1, 2, 2 );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import gger from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-gger@v0.1.1-esm/index.mjs';
+import gger from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-gger@esm/index.mjs';
 
 var opts = {
     'dtype': 'generic'
