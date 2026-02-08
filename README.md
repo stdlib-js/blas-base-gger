@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import gger from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-gger@deno/mod.js';
+import gger from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-gger@v0.1.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-gger@deno/mod.js';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-gger@v0.1.1-deno/mod.js';
 ```
 
 #### gger( order, M, N, α, x, sx, y, sy, A, lda )
@@ -165,7 +165,7 @@ gger.ndarray( 2, 3, 1.0, x, 2, 1, y, 2, 1, A, 1, 2, 2 );
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
-import gger from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-gger@deno/mod.js';
+import gger from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-gger@v0.1.1-deno/mod.js';
 
 var opts = {
     'dtype': 'generic'
